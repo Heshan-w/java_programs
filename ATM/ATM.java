@@ -1,11 +1,7 @@
-package projects.ATM;
-
 public class ATM {
-    private int pin;
     private double balance = 1000;
 
-    public ATM(int pin) {
-        this.pin = pin;
+    public ATM() {
     }
 
     public double getBalance() {

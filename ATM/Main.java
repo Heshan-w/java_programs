@@ -1,14 +1,11 @@
-package projects.ATM;
-
 import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Welcome to the Goliath National Bank ATM system !");
-        System.out.print("Enter pin number : ");
-        int pin = scanner.nextInt();
-        ATM atmUser = new ATM(pin);
+        System.out.print("Enter pin number : \n");
+        ATM atmUser = new ATM();
 
         while (true) {
             System.out.print(
